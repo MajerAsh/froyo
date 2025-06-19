@@ -18,4 +18,5 @@ flavorarray.forEach(function (flavor) {
     flavorobj[flavor] = 1; // creates key and assigns it a value (1)
   }
 });
+
 console.table(flavorobj);
